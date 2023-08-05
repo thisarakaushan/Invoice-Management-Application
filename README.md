@@ -76,16 +76,16 @@ The application consists of the following major components:
 ## Usage
 1. Clone the repository to your local machine.
 
-git clone https://github.com/jaywyawhare/Invoice-Management-Application.git
-Ensure that you have the required dependencies installed. You can use the setup.sh script provided in the repository to check and install the requirements. Run the script using the following command:
+```git clone https://github.com/thisarakaushan/Invoice-Management-Application.git```
 
-bash setup.sh
-Navigate to the h2h_milestone_5 folder and run the following command to start the server:
+2. Navigate to the h2h_milestone_5 folder and run the following command to start the server:
 
-npm start
-Navigate to http://localhost:3000/ to view the application.
+```npm start```
 
-Conclusion
+3. Navigate to http://localhost:3000/ to view the application.
+
+## Conclusion
+
 The AI-Enabled FinTech B2B Invoice Management Application aims to simplify and streamline the process of managing invoices in a B2B environment. By providing features such as grid display, CRUD operations, pagination, search functionality, and AI-based prediction, the application empowers businesses to effectively manage their invoices and make informed decisions.
 
 By following the milestones and utilizing the provided technologies (Java, React JS, JDBC, Java Servlets), you can build a robust and user-friendly invoice management system. Feel free to customize and enhance the application further based on your specific requirements and preferences.
