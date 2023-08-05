@@ -76,11 +76,11 @@ The application consists of the following major components:
 ## Usage
 1. Clone the repository to your local machine.
 
-  ```git clone https://github.com/thisarakaushan/Invoice-Management-Application.git```
+  ```````git clone https://github.com/thisarakaushan/Invoice-Management-Application.git```````
 
 2. Navigate to the h2h_milestone_5 folder and run the following command to start the server:
 
-  ```npm start```
+ ```` ```npm start``` ```
 
 3. Navigate to ```http://localhost:3000/``` to view the application.
 
