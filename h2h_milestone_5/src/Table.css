@@ -1,0 +1,22 @@
+.table-container {
+  border: 5px solid orange;
+  width: fit-content;
+  
+}
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: grey;
+    color: white;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 10px;
+  }
+  
+  .data-table tr{
+    border-bottom: 1px solid white;
+  }
+  
