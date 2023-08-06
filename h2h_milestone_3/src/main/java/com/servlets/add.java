@@ -12,11 +12,11 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebServlet("/add_servlet")
-public class AddServlet extends HttpServlet 
+@WebServlet("/add_servlet2/read")
+public class add extends HttpServlet 
 {
     private static final long serialVersionUID = 1L;
-
+    
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
     {
         int customerOrderId = Integer.parseInt(request.getParameter("customerOrderId"));
@@ -51,7 +51,5 @@ public class AddServlet extends HttpServlet
         ServletUtility.redirect(response, "DataLoadingServlet");
     }
     
-    
-    
-    
+        
 }
