@@ -1,0 +1,79 @@
+.header-wrap .MuiDataGrid-colCellTitle {
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+  }
+
+  .MuiDataGrid-root.MuiDataGrid-root--densityStandard.MuiDataGrid-withBorderColor.css-1lymaxv-MuiDataGrid-root {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+/* color of the checkbox */
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* background-color: transparent; */
+    border: none;
+  }
+
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(54, 54, 54);
+    border-radius: 5px;
+    border: none;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(54, 54, 54);
+  }
+  
+
+  .MuiDataGrid-row {
+    max-height: 30px;
+    min-height: 30px;
+}
+
+.table-container {
+  border: 5px solid orange;
+  width: 95%;
+} 
+
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+}
+
+/* 
+.first-row .MuiDataGrid-cell:first-child {
+  border-top: none;
+} */
+
+/* .last-row .MuiDataGrid-cell:last-child {
+  border-bottom: none;
+} */ 
+
+/* .MuiDataGrid-row:last-child {
+  border-bottom: none;
+} */
+
+/* .MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.MuiTablePagination-toolbar.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar {
+  color: white;
+}*/
