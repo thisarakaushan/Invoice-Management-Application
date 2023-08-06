@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice Form</title>
+</head>
+<body>
+    <h1>Invoice Form</h1>
 
+    <form action="invoiceServlet" method="post">
+        <input type="hidden" name="action" value="add">
+
+        <label for="customerOrderId">Customer Order ID:</label>
+        <input type="text" name="customerOrderId" id="customerOrderId" required><br>
+
+        <label for="salesOrg">Sales Org:</label>
+        <input type="text" name="salesOrg" id="salesOrg" required><br>
+
+        <label for="distributionChannel">Distribution Channel:</label>
+        <input type="text" name="distributionChannel" id="distributionChannel" required><br>
+
+        <!-- Add more input fields for other invoice properties -->
+
+        <button type="submit">Add Invoice</button>
+    </form>
+
+    <!-- Update and delete forms -->
+    <h2>Update/Delete Invoice</h2>
+
+    <form action="invoiceServlet" method="post">
+        <input type="hidden" name="action" value="update">
+
+        <label for="id">Invoice ID:</label>
+        <input type="text" name="id" id="id" required><br>
+
+        <!-- Add input fields for the properties to update -->
+
+        <button type="submit">Update Invoice</button>
+    </form>
+
+    <form action="invoiceServlet" method="post">
+        <input type="hidden" name="action" value="delete">
+
+        <label for="id">Invoice ID:</label>
+        <input type="text" name="id" id="id" required><br>
+
+        <button type="submit">Delete Invoice</button>
+    </form>
+</body>
+</html>
