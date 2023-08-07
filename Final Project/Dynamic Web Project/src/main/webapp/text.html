@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice Form</title>
+</head>
+<body>
+   <h1>Form for adding Invoice</h1>
 
+	<form method="POST" action="add_servlet">
+
+	  <label for="customerOrderId">CUSTOMER_ORDER_ID:</label>
+	  <input type="number" id="customerOrderId" name="customerOrderId">
+	
+	  <label for="salesOrg">SALES_ORG:</label>
+	  <input type="number" id="salesOrg" name="salesOrg">
+	
+	  <label for="distributionChannel">DISTRIBUTION_CHANNEL:</label>
+	  <input type="text" id="distributionChannel" name="distributionChannel">
+
+	  <label for="companyCode">COMPANY_CODE:</label>
+	  <input type="number" id="companyCode" name="companyCode">
+	
+	  <label for="orderCreationDate">ORDER_CREATION_DATE:</label>
+	  <input type="text" id="orderCreationDate" name="orderCreationDate">
+	
+	  <label for="orderCurrency">ORDER_CURRENCY:</label>
+	  <input type="text" id="orderCurrency" name="orderCurrency">
+	
+	  <label for="customerNumber">CUSTOMER_NUMBER:</label>
+	  <input type="number" id="customerNumber" name="customerNumber">
+	
+	  <label for="amountInUsd">AMOUNT_IN_USD:</label>
+	  <input type="number" step="0.01" id="amountInUsd" name="amountInUsd">
+	
+
+	  <input type="submit" value="Submit">
+	</form>
+
+	<h1>Edit Invoice</h1>
+	    <form method="get" action="EditServlet">
+	        slNo: <input type="text" name="id"><br>
+	        <input type="submit" value="Edit">
+	    </form>
+
+</body>
+</html>

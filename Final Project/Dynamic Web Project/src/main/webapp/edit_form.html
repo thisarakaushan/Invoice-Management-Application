@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Invoice</title>
+</head>
+<body>
+    <h1>Edit Invoice</h1>
+    <form method="POST" action="edit_invoice">
+        <label for="slNo">Sl_no:</label>
+        <input type="number" id="slNo" name="slNo" value="${invoice.slNo}" readonly><br>
+
+        <label for="customerOrderId">CUSTOMER_ORDER_ID:</label>
+        <input type="number" id="customerOrderId" name="customerOrderId" value="${invoice.customerOrderId}"><br>
+
+        <label for="salesOrg">SALES_ORG:</label>
+        <input type="number" id="salesOrg" name="salesOrg" value="${invoice.salesOrg}"><br>
+
+        <label for="distributionChannel">DISTRIBUTION_CHANNEL:</label>
+        <input type="text" id="distributionChannel" name="distributionChannel" value="${invoice.distributionChannel}"><br>
+
+        <label for="division">DIVISION:</label>
+        <input type="text" id="division" name="division" value="${invoice.division}"><br>
+
+        <label for="releasedCreditValue">RELEASED_CREDIT_VALUE:</label>
+        <input type="number" step="0.01" id="releasedCreditValue" name="releasedCreditValue" value="${invoice.releasedCreditValue}"><br>
+
+        <label for="purchaseOrderType">PURCHASE_ORDER_TYPE:</label>
+        <input type="text" id="purchaseOrderType" name="purchaseOrderType" value="${invoice.purchaseOrderType}"><br>
+
+        <label for="companyCode">COMPANY_CODE:</label>
+        <input type="number" id="companyCode" name="companyCode" value="${invoice.companyCode}"><br>
+
+        <label for="orderCreationDate">ORDER_CREATION_DATE:</label>
+        <input type="text" id="orderCreationDate" name="orderCreationDate" value="${invoice.orderCreationDate}"><br>
+
+        <label for="orderCreationTime">ORDER_CREATION_TIME:</label>
+        <input type="text" id="orderCreationTime" name="orderCreationTime" value="${invoice.orderCreationTime}"><br>
+
+        <label for="creditControlArea">CREDIT_CONTROL_AREA:</label>
+        <input type="text" id="creditControlArea" name="creditControlArea" value="${invoice.creditControlArea}"><br>
+
+        <label for="soldToParty">SOLD_TO_PARTY:</label>
+        <input type="number" id="soldToParty" name="soldToParty" value="${invoice.soldToParty}"><br>
+
+        <label for="orderAmount">ORDER_AMOUNT:</label>
+        <input type="number" step="0.01" id="orderAmount" name="orderAmount" value="${invoice.orderAmount}"><br>
+
+        <label for="requestedDeliveryDate">REQUESTED_DELIVERY_DATE:</label>
+        <input type="text" id="requestedDeliveryDate" name="requestedDeliveryDate" value="${invoice.requestedDeliveryDate}"><br>
+
+        <label for="orderCurrency">ORDER_CURRENCY:</label>
+        <input type="text" id="orderCurrency" name="orderCurrency" value="${invoice.orderCurrency}"><br>
+
+        <label for="creditStatus">CREDIT_STATUS:</label>
+        <input type="text" id="creditStatus" name="creditStatus" value="${invoice.creditStatus}"><br>
+
+        <label for="customerNumber">CUSTOMER_NUMBER:</label>
+        <input type="number" id="customerNumber" name="customerNumber" value="${invoice.customerNumber}"><br>
+
+        <label for="amountInUSD">AMOUNT_IN_USD:</label>
+        <input type="number" step="0.01" id="amountInUSD" name="amountInUSD" value="${invoice.amountInUSD}"><br>
+
+        <label for="uniqueCustId">UNIQUE_CUST_ID:</label>
+        <input type="number" id="uniqueCustId" name="uniqueCustId" value="${invoice.uniqueCustId}"><br>
+
+        <input type="submit" value="Update">
+    </form>
+</body>
+</html>
